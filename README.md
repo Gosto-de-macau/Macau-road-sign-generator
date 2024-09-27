@@ -1,4 +1,4 @@
-## Macau Road Sign Generator
+## 澳門特別行政區路牌製作器 / Fabricante de Sinalética de Rua da Região Administrativa Especial de Macau
 
 ### 概述 / Visão Geral
 此專案是一個**澳門特別行政區路牌製作器**，這個簡單的網頁工具允許用戶輸入中文和葡文的自訂文字來生成澳門風格路牌。點擊 **"生成"** 按鈕，即可生成帶有自訂文字的路牌。可以通過點擊 **"下載"** 按鈕來下載生成的路牌圖像。
