@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+
+    /* background-image: url('images/Macau_background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+
+    /* background-color: rgba(255, 255, 255, 0.75); 
+    background-blend-mode: overlay;  
+    height: 100vh; 
+    margin: 0;  */
+}
+
+#border-container {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffffd7;
+    /* border-color: black; */
+    border: 1px solid grey;
+    /* margin: 10px solid rgb(218, 41, 41); */
+}
+
+#roadSignContainer {
+    display: inline-block;
+}
+
+#canvas {
+    width: 760px;
+    height: 400px;
+}
+
+.hidden {
+    display: none;
+}

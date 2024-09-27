@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/emblem_of_macau.svg" type="image/svg">
+
+  <title>澳門特別行政區路牌製作器</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="button_style.css">
+  <link rel="stylesheet" href="input_style.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+</head>
+<body onload="generateSign()"> <!-- Call the function on page load -->
+
+
+  <!-- <img src="images/China_Flag.png" height="80"> -->
+  <!-- <img src="images/emblem_of_macau.svg" height="200"> -->
+  <!-- <img src="images/Macau_Flag.svg" height="80"> -->
+  <h1>澳門特別行政區路牌製作器</h1>
+  <h2>Fabricante de Sinalética de Rua da Região Administrativa Especial de Macau</h2>
+
+  <!-- <form id="signForm_old">
+    &nbsp;&nbsp;&nbsp;&nbsp;<label for="chineseInput">中 文 :</label>&nbsp;&nbsp;&nbsp;
+    <input type="text" id="chineseInput" value="澳門特別行政區街道" required><br><br> 
+    <label for="portugueseInput">Português:</label>
+    <input type="text" id="portugueseInput" value="Rua da Região Administrativa Especial de Macau" required><br><br> 
+    <button type="button" class="btn btn-3 btn-sep icon-submit" onclick="generateSign()">生成  Produzir</button>
+    <button class="btn btn-2 btn-sep icon-download" onclick="downloadImage2()">下載  Baixar </button>
+  </form> -->
+
+  <form id="signForm">
+    <div class="group">      
+      <input type="text" id="chineseInput" value="" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>中文</label>
+    </div>
+      
+    <div class="group">      
+      <input type="text" id="portugueseInput" value="" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Português</label>
+    </div>
+  </form>
+  <button type="button" class="btn btn-3 btn-sep icon-submit" onclick="generateSign()">生成  Produzir</button>
+  <button class="btn btn-2 btn-sep icon-download" onclick="downloadImage2()">下載  Baixar </button>
+
+
+  <hr style="width: 1000px; margin: 20px auto;">
+
+  <!-- Add the three-layer border around the sign -->
+   
+  <div id="border-container">
+    <!-- <div id="roadSignContainer"> -->
+      <canvas id="canvas" width="760" height="400"></canvas>
+    <!-- </div> -->
+  </div>
+  <br><br><br>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
