@@ -8,9 +8,9 @@ Este projeto é um **Fabricante de Sinalética de Rua da Região Administrativa 
 ---
 
 ### 演示 / Demonstração
-您可以通過[此鏈接](https://yangchiheng.github.io/Macau-road-sign-generator)訪問**澳門路牌製作器**的演示版本。
+您可以通過[此鏈接](https://Gosto-de-macau.github.io/Macau-road-sign-generator)訪問**澳門路牌製作器**的演示版本。
 
-Pode aceder à demonstração ao vivo do **Fabricante de Sinalética de Rua de Macau** [aqui](https://yangchiheng.github.io/Macau-road-sign-generator).
+Pode aceder à demonstração ao vivo do **Fabricante de Sinalética de Rua de Macau** [aqui](https://Gosto-de-macau.github.io/Macau-road-sign-generator).
 
 
 ---
